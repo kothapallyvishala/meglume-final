@@ -25,7 +25,7 @@ body {
   max-width: 64rem;
   padding: 0 20px;
   margin: auto;
-  background: url(/assets/background.png) top;
+  background: url(assets/background.png) top;
   background-repeat: no-repeat;
   background-size: 100%;
 }
