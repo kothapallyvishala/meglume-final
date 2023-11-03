@@ -169,3 +169,19 @@ input[type="number"]::-webkit-inner-spin-button {
   );
   transition: 0.5s;
 }
+
+.token_percent > button:hover {
+  background: linear-gradient(
+    to right,
+    var(--accent-color-2),
+    var(--accent-color-1)
+  );
+}
+
+.token__end__btns > button:hover {
+  background: linear-gradient(
+    to right,
+    var(--accent-color-2),
+    var(--accent-color-1)
+  );
+}
