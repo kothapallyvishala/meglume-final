@@ -1,0 +1,161 @@
+*,
+::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --primary-color: #090b1d;
+  --accent-color-1: #12dbb9;
+  --accent-color-2: #0580bf;
+
+  --secondary-text: #5d6882;
+  --text--opacity: 1;
+  --border-color: #434343;
+}
+
+section {
+  margin: 0 !important;
+}
+
+.launchpad__title {
+  font-weight: 800;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: var(--accent-color-1);
+}
+
+.launchpad__desc {
+  color: var(--secondary-text);
+}
+
+.launchpad__cards {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 4rem;
+  gap: 2rem;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.launchpad__card {
+  box-shadow: 0 0 #0000, 0 0 #0000, 6px 4px 6px 3px rgba(0, 0, 0, 0.15);
+  background-color: rgb(9, 37, 50);
+  border-radius: 0.5rem;
+  background-color: #161f32;
+  display: flex;
+  flex-direction: column;
+}
+
+.launchpad__card__top {
+  display: flex;
+  padding: 1rem 2rem;
+  gap: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.launchpad__action {
+  border: 1px solid var(--accent-color-1);
+  border-radius: 0.5rem;
+  padding: 0.2rem 1rem;
+  gap: 2rem;
+  font-weight: 400;
+  font-size: small;
+  color: var(--accent-color-1);
+  text-transform: capitalize;
+}
+
+.launchpad_card__center {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  gap: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.launchpad_card__center__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--accent-color-1);
+  font-size: medium;
+  font-weight: 700;
+  /* letter-spacing: 0.1em; */
+  text-transform: uppercase;
+}
+
+.launchpad_card__center__logo img {
+  height: 30px;
+  width: 30px;
+  border-radius: 0.5rem;
+}
+
+.launchpad_card__center__links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.launchpad_card__center__links svg {
+  height: 25px;
+  width: 25px;
+}
+
+.launchpad__card__bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  gap: 0.5rem;
+}
+
+.launchpad__card__bottom__info p {
+  color: var(--secondary-text);
+  font-size: x-small;
+}
+
+.launchpad__card__bottom__info div {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.launchpad__gradient {
+  color: var(--accent-color-2);
+}
+
+.launchpad__card__text {
+  box-shadow: 0 0 #0000, 0 0 #0000, 6px 4px 6px 3px rgba(0, 0, 0, 0.15);
+  display: flex;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 800;
+  height: 60px;
+  color: var(--accent-color-1);
+  background-color: rgb(15 19 34);
+  margin: auto;
+}
+
+.social__links ul {
+  display: flex;
+  flex-direction: row;
+}
+.social__links ul li a > svg {
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.logo > img {
+  height: 40px;
+  width: 40px;
+  border-radius: 0.5rem;
+}
+
+.launchpad__card:first-child:hover {
+  outline: 1px solid var(--accent-color-1);
+  cursor: pointer;
+}
