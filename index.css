@@ -24,7 +24,7 @@ body {
   font-family: "Inter", sans-serif;
   max-width: 64rem;
   padding: 0 20px;
-  margin: auto;
+  margin: 0 auto;
   background: url(assets/background.png) top;
   background-repeat: no-repeat;
   background-size: 100%;
